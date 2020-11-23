@@ -1,5 +1,4 @@
 # Food Database Project
----
 Fill in project information
 
 ### Tech
@@ -31,11 +30,12 @@ pip install Flask-WTF
 ---
 To run the project through Command Prompt you have to CD into the folder and then run app.py.
 ```sh
-cd C:\Users\Alex\Desktop\csc455-master
-python app.py
+cd C:\Users\Alex\Downloads\csc455-master
 ```
 
-To run through an IDE like PyCharm you have to open the folder as a project and then run app.py.
+```sh
+python app.py
+```
 
 #### Authors
 ---
