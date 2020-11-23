@@ -3,6 +3,8 @@ Our project demonstrates our grasp of database concepts by implementing a databa
 
 We created a Flask application using SQLite that showcases information from fast food restaurants and allows you to edit, filter, search, and sort the information.
 
+
+
 ## Tech
 Our project uses a number of tech to work properly:
 * [DataTables]
@@ -13,6 +15,8 @@ Our project uses a number of tech to work properly:
 * [jQuery-cookie]
 * [SQLite]
 * [SQLite Browser]
+
+
 
 ## Installation
 Our project requires Python 3 and the packages Flask and Flask-WTF to run.
@@ -29,8 +33,11 @@ pip install Flask
 pip install Flask-WTF
 ```
 
+
+
 ## Usage
 To run the project through Command Prompt you have to CD into the folder and then run app.py.
+
 ```sh
 cd C:\Users\Alex\Downloads\csc455-master
 ```
@@ -38,6 +45,19 @@ cd C:\Users\Alex\Downloads\csc455-master
 ```sh
 python app.py
 ```
+
+Open [localhost:5000](http://localhost:5000/).
+
+## Images
+![](https://github.com/TrishRB/csc455/tree/master/images/image1.jpg)
+> Default items.
+
+![](https://github.com/TrishRB/csc455/tree/master/images/image2.jpg)
+> Filtered items.
+
+![](https://github.com/TrishRB/csc455/tree/master/images/image3.jpg)
+> Edit form.
+
 
 ## Authors
 Trish Beeksma - [GitHub](https://github.com/TrishRB)\
