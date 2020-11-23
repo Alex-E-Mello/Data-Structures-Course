@@ -1,9 +1,7 @@
 # Food Database Project
-
 Fill in project information
 
 ## Tech
-
 Our project uses a number of tech to work properly:
 * [DataTables]
 * [Flask]
@@ -13,7 +11,6 @@ Our project uses a number of tech to work properly:
 * [jQuery-cookie]
 
 ## Installation
-
 Our project requires Python 3 and the packages Flask and Flask-WTF to run.
 
 [Install Python here.](https://www.python.org/downloads/)
@@ -29,7 +26,6 @@ pip install Flask-WTF
 ```
 
 ## Usage
----
 To run the project through Command Prompt you have to CD into the folder and then run app.py.
 ```sh
 cd C:\Users\Alex\Downloads\csc455-master
@@ -40,14 +36,12 @@ python app.py
 ```
 
 ## Authors
----
 Trish Beeksma \
 Alex Mello \
 Matthew Siebold
 
 
 ## License
-----
 MIT
 
 
