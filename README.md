@@ -1,4 +1,5 @@
 # Food Database Project
+---
 Fill in project information
 
 ### Tech
