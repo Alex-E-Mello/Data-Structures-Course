@@ -1,4 +1,5 @@
 # Food Database Project
+---
 Fill in project information
 
 ### Tech
@@ -42,7 +43,7 @@ python app.py
 ---
 Trish Beeksma \
 Alex Mello \
-Matthew Siebold
+Matthew Siebold \
 
 
 ### License
