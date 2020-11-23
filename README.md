@@ -1,7 +1,7 @@
 # Food Database Project
 Our project demonstrates our grasp of database concepts by implementing a database-backed application using a relational database management system. 
 
-We created a Flask application that showcases information from fast food restaurants such restaurant details, items, and combinations. Each item includes the item price and nutritional information. Each combination includes items included in the combination and the aggregate nutrition information for the combination.
+We created a Flask application that showcases information from fast food restaurants and allows you to filter, search, and sort the information.
 
 ## Tech
 Our project uses a number of tech to work properly:
@@ -38,9 +38,9 @@ python app.py
 ```
 
 ## Authors
-Trish Beeksma \
-Alex Mello \
-Matthew Siebold
+Trish Beeksma - [GitHub](https://github.com/TrishRB)\
+Alex Mello - [GitHub](https://github.com/Alex-Mello)\
+Matthew Siebold - [GitHub]()
 
 
 ## License
