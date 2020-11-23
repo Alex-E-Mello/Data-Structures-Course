@@ -1,18 +1,18 @@
 # Food Database Project
----
 Fill in project information
 
 ### Tech
 ---
 Our project uses a number of tech to work properly:
+* [DataTables]
 * [Flask]
 * [Flask-WTF]
+* [Jinja]
 * [jQuery]
 * [jQuery-cookie]
-* [DataTables]
 
 ### Installation
----
+
 Our project requires Python 3 and the packages Flask and Flask-WTF to run.
 
 [Install Python here.](https://www.python.org/downloads/)
@@ -40,9 +40,9 @@ python app.py
 
 #### Authors
 ---
-Trish Beeksma
-Alex Mello
-Matthew Siebold
+Trish Beeksma \
+Alex Mello \
+Matthew Siebold \
 
 
 ### License
@@ -59,6 +59,7 @@ MIT
 
    [Flask]: <https://github.com/joemccann/dillinger>
    [Flask-WTF]: <https://github.com/lepture/flask-wtf>
+   [Jinja]: https://github.com/pallets/jinja
    [jQuery]: <http://jquery.com>
    [jQuery-cookie]: <http://jquery.com>
    [DataTables]: <https://github.com/DataTables/DataTables>
