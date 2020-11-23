@@ -1,5 +1,5 @@
 # Food Database Project
-Fill in project information
+Our project demonstrates our grasp of database concepts by implementing a database-backed application using a relational database management system. We created a Flask application that showcases our database information.
 
 ## Tech
 Our project uses a number of tech to work properly:
