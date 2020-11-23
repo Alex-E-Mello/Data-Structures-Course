@@ -1,4 +1,4 @@
-### Food Database Project
+# Food Database Project
 ---
 Fill in project information
 
