@@ -1,7 +1,7 @@
 # Food Database Project
 Our project demonstrates our grasp of database concepts by implementing a database-backed application using a relational database management system. 
 
-We created a Flask application that showcases information from fast food restaurants and allows you to filter, search, and sort the information.
+We created a Flask application using SQLite that showcases information from fast food restaurants and allows you to edit, filter, search, and sort the information.
 
 ## Tech
 Our project uses a number of tech to work properly:
@@ -42,7 +42,7 @@ python app.py
 ## Authors
 Trish Beeksma - [GitHub](https://github.com/TrishRB)\
 Alex Mello - [GitHub](https://github.com/Alex-Mello)\
-Matthew Siebold - [GitHub]()
+Matthew Siebold
 
 
 ## License
@@ -55,12 +55,11 @@ MIT
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-
+   [DataTables]: <https://github.com/DataTables/DataTables>
    [Flask]: <https://github.com/joemccann/dillinger>
    [Flask-WTF]: <https://github.com/lepture/flask-wtf>
    [Jinja]: https://github.com/pallets/jinja
    [jQuery]: <http://jquery.com>
    [jQuery-cookie]: <http://jquery.com>
-   [DataTables]: <https://github.com/DataTables/DataTables
    [SQLite]: <https://github.com/sqlite/sqlite>
    [SQLite Browser]: <https://sqlitebrowser.org/>
