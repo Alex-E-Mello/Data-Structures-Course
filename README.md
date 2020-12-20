@@ -15,13 +15,12 @@ APIs currently in use by the bot:
 
 ## Commands
 __<ins>CAT COMMANDS</ins>__
-* !cat
-Sends a random cat GIF
-
+!cat
+>Sends a random cat GIF
 !cat upvote
-Upvotes the last cat GIF
+> Upvotes the last cat GIF
 !cat downvote
-Upvotes the last cat GIF
+> Upvotes the last cat GIF
  
 DOG COMMANDS
 !dog
