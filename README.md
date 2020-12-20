@@ -14,22 +14,25 @@ APIs currently in use by the bot:
 * [RoboHash]
 
 ## Commands
-__<ins>CAT COMMANDS</ins>__
+__<ins>CAT COMMANDS</ins>__ \
 !cat
  * Sends a random cat GIF
-
+ 
 !cat upvote
  *  Upvotes the last cat GIF
+
 !cat downvote
 > Upvotes the last cat GIF
  
-DOG COMMANDS
+__<ins>DOG COMMANDS</ins>__ \
 !dog
-Sends a random dog GIF
+ * Sends a random dog GIF
+
 !dog upvote
-Upvotes the last dog GIF
+ * Upvotes the last dog GIF
+
 !dog downvote
-Upvotes the last dog GIF
+ * Upvotes the last dog GIF
  
 IMBD COMMANDS
 !imbd TITLE
