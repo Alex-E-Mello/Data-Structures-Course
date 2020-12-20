@@ -22,7 +22,7 @@ __<ins>CAT COMMANDS</ins>__ \
  *  Upvotes the last cat GIF
 
 !cat downvote
-> Upvotes the last cat GIF
+ *  Upvotes the last cat GIF
  
 __<ins>DOG COMMANDS</ins>__ \
 !dog
@@ -34,60 +34,67 @@ __<ins>DOG COMMANDS</ins>__ \
 !dog downvote
  * Upvotes the last dog GIF
  
-IMBD COMMANDS
+__<ins>IMBD COMMANDS</ins>__ \
 !imbd TITLE
-Searches IMBd for information on the movie/series based on the title
-Ex. !imbd Life of Pi
-!imbd search TITLE
-Searches IMBd for movies/series based on the title
-Ex. !imbd search Prisoners
- 
-JOKE COMMANDS
-!joke
-Sends a random dad joke
-!joke SEARCHTERM
-Sends a random dad joke based on the search term
-Ex. !joke Teacher
- 
-NASA APOD COMMANDS
-!nasa apod
-Sends the NASA Astronomy Picture of the Day
-!nasa apod DATE
-Sends the NASA Astronomy Picture of the Day for the given date\
-Ex. !nasa apod 2020-1-1
- 
-NASA ROVER COMMANDS
-!nasa rover
-Send a random image from NASA's Mars Curiosity Rover
-!nasa rover DATE
-Send a random image from NASA's Mars Curiosity Rover for the given date
-Ex. !nasa rover 2020-1-1
- 
-NASA SEARCH COMMANDS
-!nasa search
-Sends a random image from NASA's image library
-!nasa search SEARCHTERM
-Sends an image from NASA's image library based on the search term
-Ex. !nasa search Uranus
- 
-ROBOT COMMANDS
-!robot SET(optional) BACKGROUND(optional)
-Sends a random robot image
-Ex. !robot set1 background1
-!robot TERM SET(optional) BACKGROUND(optional)
-Sends a robot image based on the search term
-Ex. !robot My name is Alex! set4 background2
+ * Searches IMBd for information on the movie/series based on the title
+ * `Ex. !imbd Life of Pi`
 
-SET can either be set1, set2, set3, set4, or set5
-BACKGROUND can either be background1 or background2
+!imbd search TITLE
+ * Searches IMBd for movies/series based on the title
+ * `Ex. !imbd search Prisoners`
  
-STOCK COMMANDS
+__<ins>JOKE COMMANDS</ins>__ \
+!joke
+ * Sends a random dad joke
+
+!joke SEARCHTERM
+ * Sends a random dad joke based on the search term
+ * `Ex. !joke Teacher`
+ 
+__<ins>NASA APOD COMMANDS</ins>__ \
+!nasa apod
+ * Sends the NASA Astronomy Picture of the Day
+
+!nasa apod DATE
+ * Sends the NASA Astronomy Picture of the Day for the given date\
+ * `Ex. !nasa apod 2020-1-1`
+ 
+__<ins>NASA ROVER COMMANDS</ins>__ \
+!nasa rover
+ * Send a random image from NASA's Mars Curiosity Rover
+
+!nasa rover DATE
+ * Send a random image from NASA's Mars Curiosity Rover for the given date
+ * `Ex. !nasa rover 2020-1-1`
+ 
+__<ins>NASA SEARCH COMMANDS</ins>__ \
+!nasa search
+ * Sends a random image from NASA's image library
+
+!nasa search SEARCHTERM
+ * Sends an image from NASA's image library based on the search term
+ * `Ex. !nasa search Uranus`
+ 
+__<ins>ROBOT COMMANDS</ins>__ \
+!robot SET(optional) BACKGROUND(optional)
+ * Sends a random robot image
+ * `Ex. !robot set1 background1`
+
+!robot TERM SET(optional) BACKGROUND(optional)
+ * Sends a robot image based on the search term
+ * `Ex. !robot My name is Alex! set4 background2`
+
+<ins>SET can either be set1, set2, set3, set4, or set5</ins>
+<ins>BACKGROUND can either be background1 or background2</ins>
+ 
+__<ins>STOCK COMMANDS</ins>__ \
 !stock STOCKTICKER
-Sends a stock chart based on the stock ticker
-Ex. !stock MSFT
+ * Sends a stock chart based on the stock ticker
+ * `Ex. !stock MSFT`
+
 !stock search SEARCHTERM
-Searches for stocks based on the search term
-Ex. !stock search Amazon
+ * Searches for stocks based on the search term
+ * `Ex. !stock search Amazon`
 
 ```sh
 pip install Flask
