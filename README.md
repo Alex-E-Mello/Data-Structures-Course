@@ -24,7 +24,7 @@ APIs currently in use by the bot:
 !cat downvote
  *  Upvotes the last cat GIF
 
-\n
+<br>
 #### <ins>DOG COMMANDS</ins>
 !dog
  * Sends a random dog GIF
@@ -35,7 +35,7 @@ APIs currently in use by the bot:
 !dog downvote
  * Upvotes the last dog GIF
 
-\n
+<br>
 #### <ins>IMBD COMMANDS</ins>
 !imbd TITLE
  * Searches IMBd for information on the movie/series based on the title
@@ -45,7 +45,7 @@ APIs currently in use by the bot:
  * Searches IMBd for movies/series based on the title
  * `Ex. !imbd search Prisoners`
  
-----
+<br>
 #### <ins>JOKE COMMANDS</ins>
 !joke
  * Sends a random dad joke
@@ -54,7 +54,7 @@ APIs currently in use by the bot:
  * Sends a random dad joke based on the search term
  * `Ex. !joke Teacher`
  
-----
+<br>
 #### <ins>NASA APOD COMMANDS</ins>
 !nasa apod
  * Sends the NASA Astronomy Picture of the Day
@@ -63,7 +63,7 @@ APIs currently in use by the bot:
  * Sends the NASA Astronomy Picture of the Day for the given date\
  * `Ex. !nasa apod 2020-1-1`
  
-----
+<br>
 #### <ins>NASA ROVER COMMANDS</ins>
 !nasa rover
  * Send a random image from NASA's Mars Curiosity Rover
@@ -72,7 +72,7 @@ APIs currently in use by the bot:
  * Send a random image from NASA's Mars Curiosity Rover for the given date
  * `Ex. !nasa rover 2020-1-1`
  
-----
+<br>
 #### <ins>NASA SEARCH COMMANDS</ins>
 !nasa search
  * Sends a random image from NASA's image library
@@ -81,7 +81,7 @@ APIs currently in use by the bot:
  * Sends an image from NASA's image library based on the search term
  * `Ex. !nasa search Uranus`
  
-----
+<br>
 #### <ins>ROBOT COMMANDS</ins>
 !robot SET(optional) BACKGROUND(optional)
  * Sends a random robot image
@@ -94,7 +94,7 @@ APIs currently in use by the bot:
 <ins>SET can either be set1, set2, set3, set4, or set5</ins>
 <ins>BACKGROUND can either be background1 or background2</ins>
  
-----
+<br>
 #### <ins>STOCK COMMANDS</ins>
 !stock STOCKTICKER
  * Sends a stock chart based on the stock ticker
