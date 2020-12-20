@@ -1,7 +1,7 @@
 # Houhou Discord Bot
 This Discord bot connects to many different APIs and can be added to a Discord server to allow users to get the functionality of the APIs without leaving Discord!
 
-The bot is currently being hosted on Heroku! If you would like to test out the bot you can join the discord server by clicking this [link]! 
+If you would like to test out the bot you can join the discord server by clicking this [link]! 
 
 
 
@@ -102,28 +102,37 @@ APIs currently in use by the bot:
 
 
 
-```sh
-pip install Flask
-```
+## Setup
+Create a bot account and add it to your server by following [this tutorial](https://discordpy.readthedocs.io/en/latest/discord.html).
+
+Add your Discord login token to the KEYS.py file.
+
+Update all of the API keys in KEYS.py to your own API keys.
+
+
+
+## Installation
+Our project requires Python 3 and multiple packages to run.
+
+[Install Python here.](https://www.python.org/downloads/)
+
+Install packages.
 
 ```sh
-pip install Flask-WTF
+pip install -r Requirements.txt
 ```
-
 
 
 ## Usage
-To run the project through Command Prompt you have to CD into the folder and then run app.py.
+To run the project through Command Prompt you have to CD into the folder and then run DiscordBot.py.
 
 ```sh
-cd C:\Users\Alex\Downloads\Food-Database-Project-main
+cd C:\Users\Alex\Downloads\Houhou-Discord-Bot-main
 ```
 
 ```sh
-python app.py
+python DiscordBot.py
 ```
-
-Open [localhost:5000](http://localhost:5000/).
 
 
 
