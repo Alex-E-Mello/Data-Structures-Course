@@ -1,7 +1,7 @@
 # Houhou Discord Bot
-If you would like to test out the bot you can join the discord server by clicking this [link]! 
-
 This Discord bot connects to many different APIs and can be added to a Discord server to allow users to get the functionality of the APIs without leaving Discord!
+
+The bot is currently being hosted on Heroku! If you would like to test out the bot you can join the discord server by clicking this [link]! 
 
 
 
@@ -19,72 +19,72 @@ APIs currently in use by the bot:
 
 ## Commands
 #### <ins>CAT COMMANDS</ins>
-!cat
+<ins>!cat</ins>
  * Sends a random cat GIF
  
-!cat upvote
+<ins>!cat upvote</ins>
  *  Upvotes the last cat GIF
 
-!cat downvote
+<ins>!cat downvote</ins>
  *  Upvotes the last cat GIF <br>
 
 #### <ins>DOG COMMANDS</ins>
-!dog
+<ins>!dog</ins>
  * Sends a random dog GIF
 
-!dog upvote
+<ins>!dog upvote</ins>
  * Upvotes the last dog GIF
 
-!dog downvote
+<ins>!dog downvote</ins>
  * Upvotes the last dog GIF <br>
 
 #### <ins>IMBD COMMANDS</ins>
-!imbd TITLE
+<ins>!imbd TITLE</ins>
  * Searches IMBd for information on the movie/series based on the title
  * `Ex. !imbd Life of Pi`
 
-!imbd search TITLE
+<ins>!imbd search TITLE</ins>
  * Searches IMBd for movies/series based on the title
  * `Ex. !imbd search Prisoners` <br>
  
 #### <ins>JOKE COMMANDS</ins>
-!joke
+<ins>!joke</ins>
  * Sends a random dad joke
 
-!joke SEARCHTERM
+<ins>!joke SEARCHTERM</ins>
  * Sends a random dad joke based on the search term
  * `Ex. !joke Teacher` <br>
  
 #### <ins>NASA APOD COMMANDS</ins>
-!nasa apod
+<ins>!nasa apod</ins>
  * Sends the NASA Astronomy Picture of the Day
 
-!nasa apod DATE
+<ins>!nasa apod DATE</ins>
  * Sends the NASA Astronomy Picture of the Day for the given date\
  * `Ex. !nasa apod 2020-1-1` <br>
  
 #### <ins>NASA ROVER COMMANDS</ins>
-!nasa rover
+<ins>!nasa rover</ins>
  * Send a random image from NASA's Mars Curiosity Rover
 
-!nasa rover DATE
+<ins>!nasa rover DATE</ins>
  * Send a random image from NASA's Mars Curiosity Rover for the given date
  * `Ex. !nasa rover 2020-1-1` <br>
  
 #### <ins>NASA SEARCH COMMANDS</ins>
-!nasa search
+<ins>!nasa search</ins>
  * Sends a random image from NASA's image library
 
-!nasa search SEARCHTERM
+<ins>!nasa search SEARCHTERM</ins>
  * Sends an image from NASA's image library based on the search term
  * `Ex. !nasa search Uranus` <br>
  
 #### <ins>ROBOT COMMANDS</ins>
-!robot SET(optional) BACKGROUND(optional)
+<ins>!robot SET(optional) BACKGROUND(optional)</ins>
  * Sends a random robot image
  * `Ex. !robot set1 background1`
 
-!robot TERM SET(optional) BACKGROUND(optional)
+<ins>!robot TERM SET(optional) BACKGROUND(optional)</ins>
  * Sends a robot image based on the search term
  * `Ex. !robot My name is Alex! set4 background2`
 
@@ -92,11 +92,11 @@ APIs currently in use by the bot:
 <ins>BACKGROUND can either be background1 or background2</ins> <br>
  
 #### <ins>STOCK COMMANDS</ins>
-!stock STOCKTICKER
+<ins>!stock STOCKTICKER</ins>
  * Sends a stock chart based on the stock ticker
  * `Ex. !stock MSFT`
 
-!stock search SEARCHTERM
+<ins>!stock search SEARCHTERM</ins>
  * Searches for stocks based on the search term
  * `Ex. !stock search Amazon`
 
