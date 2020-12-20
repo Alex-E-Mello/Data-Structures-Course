@@ -1,29 +1,90 @@
-# Food Database Project
-Our project demonstrates our grasp of database concepts by implementing a database-backed application using a relational database management system. 
+# Houhou Discord Bot
+If you would like to test out the bot you can join the discord server by clicking this [link]! 
 
-We created a Flask application using SQLite that showcases information from fast food restaurants and allows you to edit, filter, search, and sort the information.
+This Discord bot connects to many different APIs and can be added to a Discord server to allow users to get the functionality of the APIs without leaving Discord!
 
+## APIs
+APIs currently in use by the bot:
+* [Alpha Vantage]
+* [icanhazdadjoke]
+* [NASA APOD]
+* [NASA Image and Video Library]
+* [NASA Mars Rover Photos]
+* [OMBd]
+* [RoboHash]
 
+## Commands
+__<ins>CAT COMMANDS</ins>__
+* !cat
+Sends a random cat GIF
 
-## Tech
-Our project uses a number of tech to work properly:
-* [DataTables]
-* [Flask]
-* [Flask-WTF]
-* [Jinja]
-* [jQuery]
-* [jQuery-cookie]
-* [SQLite]
-* [SQLite Browser]
+!cat upvote
+Upvotes the last cat GIF
+!cat downvote
+Upvotes the last cat GIF
+ 
+DOG COMMANDS
+!dog
+Sends a random dog GIF
+!dog upvote
+Upvotes the last dog GIF
+!dog downvote
+Upvotes the last dog GIF
+ 
+IMBD COMMANDS
+!imbd TITLE
+Searches IMBd for information on the movie/series based on the title
+Ex. !imbd Life of Pi
+!imbd search TITLE
+Searches IMBd for movies/series based on the title
+Ex. !imbd search Prisoners
+ 
+JOKE COMMANDS
+!joke
+Sends a random dad joke
+!joke SEARCHTERM
+Sends a random dad joke based on the search term
+Ex. !joke Teacher
+ 
+NASA APOD COMMANDS
+!nasa apod
+Sends the NASA Astronomy Picture of the Day
+!nasa apod DATE
+Sends the NASA Astronomy Picture of the Day for the given date\
+Ex. !nasa apod 2020-1-1
+ 
+NASA ROVER COMMANDS
+!nasa rover
+Send a random image from NASA's Mars Curiosity Rover
+!nasa rover DATE
+Send a random image from NASA's Mars Curiosity Rover for the given date
+Ex. !nasa rover 2020-1-1
+ 
+NASA SEARCH COMMANDS
+!nasa search
+Sends a random image from NASA's image library
+!nasa search SEARCHTERM
+Sends an image from NASA's image library based on the search term
+Ex. !nasa search Uranus
+ 
+ROBOT COMMANDS
+!robot SET(optional) BACKGROUND(optional)
+Sends a random robot image
+Ex. !robot set1 background1
+!robot TERM SET(optional) BACKGROUND(optional)
+Sends a robot image based on the search term
+Ex. !robot My name is Alex! set4 background2
 
-
-
-## Installation
-Our project requires Python 3 and the packages Flask and Flask-WTF to run.
-
-[Install Python here.](https://www.python.org/downloads/)
-
-Install Flask and Flask-WTF.
+SET can either be set1, set2, set3, set4, or set5
+BACKGROUND can either be background1 or background2
+ 
+STOCK COMMANDS
+!stock STOCKTICKER
+Sends a stock chart based on the stock ticker
+Ex. !stock MSFT
+!stock search SEARCHTERM
+Searches for stocks based on the search term
+Ex. !stock search Amazon
 
 ```sh
 pip install Flask
@@ -39,7 +100,7 @@ pip install Flask-WTF
 To run the project through Command Prompt you have to CD into the folder and then run app.py.
 
 ```sh
-cd C:\Users\Alex\Downloads\csc455-master
+cd C:\Users\Alex\Downloads\Food-Database-Project-main
 ```
 
 ```sh
@@ -48,21 +109,13 @@ python app.py
 
 Open [localhost:5000](http://localhost:5000/).
 
-## Images
-![](https://github.com/TrishRB/csc455/tree/master/images/image1.jpg)
-> Default items.
-
-![](https://github.com/TrishRB/csc455/tree/master/images/image2.jpg)
-> Filtered items.
-
-![](https://github.com/TrishRB/csc455/tree/master/images/image3.jpg)
-> Edit form.
 
 
 ## Authors
 Trish Beeksma - [GitHub](https://github.com/TrishRB)\
-Alex Mello - [GitHub](https://github.com/Alex-Mello)\
-Matthew Siebold
+Alex Mello - [GitHub](https://github.com/Alex-E-Mello)\
+Matthew Siebold - [GitHub](https://github.com/DorkCube)
+
 
 
 ## License
@@ -73,13 +126,15 @@ MIT
 
 
 
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [DataTables]: <https://github.com/DataTables/DataTables>
-   [Flask]: <https://github.com/joemccann/dillinger>
-   [Flask-WTF]: <https://github.com/lepture/flask-wtf>
-   [Jinja]: https://github.com/pallets/jinja
-   [jQuery]: <http://jquery.com>
-   [jQuery-cookie]: <http://jquery.com>
-   [SQLite]: <https://github.com/sqlite/sqlite>
-   [SQLite Browser]: <https://sqlitebrowser.org/>
+   [link]: <https://discord.gg/JYxbQKkB>
+   
+   [Alpha Vantage]: <https://www.alphavantage.co/documentation/>
+   [icanhazdadjoke]: <https://icanhazdadjoke.com/api>
+   [NASA APOD]: <https://api.nasa.gov/>
+   [NASA Image and Video Library]: <https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf>
+   [NASA Mars Rover Photos]: <https://github.com/chrisccerami/mars-photo-api>
+   [OMBd]: <http://www.omdbapi.com/>
+   [RoboHash]: <https://github.com/e1ven/Robohash>
