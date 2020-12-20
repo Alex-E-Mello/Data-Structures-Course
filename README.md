@@ -24,7 +24,7 @@ APIs currently in use by the bot:
 !cat downvote
  *  Upvotes the last cat GIF
 
-----
+\n
 #### <ins>DOG COMMANDS</ins>
 !dog
  * Sends a random dog GIF
@@ -35,7 +35,7 @@ APIs currently in use by the bot:
 !dog downvote
  * Upvotes the last dog GIF
 
-----
+\n
 #### <ins>IMBD COMMANDS</ins>
 !imbd TITLE
  * Searches IMBd for information on the movie/series based on the title
