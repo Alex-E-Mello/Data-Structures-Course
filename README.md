@@ -105,9 +105,7 @@ APIs currently in use by the bot:
 ## Setup
 Create a bot account and add it to your server by following [this tutorial](https://discordpy.readthedocs.io/en/latest/discord.html).
 
-Add your Discord login token to the KEYS.py file.
-
-Update all of the API keys in KEYS.py to your own API keys.
+Update the DIscord login token and API keys in KEYS.py to your own.
 
 
 
