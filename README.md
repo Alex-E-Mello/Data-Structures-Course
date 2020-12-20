@@ -3,6 +3,8 @@ If you would like to test out the bot you can join the discord server by clickin
 
 This Discord bot connects to many different APIs and can be added to a Discord server to allow users to get the functionality of the APIs without leaving Discord!
 
+
+
 ## APIs
 APIs currently in use by the bot:
 * [Alpha Vantage]
@@ -12,6 +14,8 @@ APIs currently in use by the bot:
 * [NASA Mars Rover Photos]
 * [OMBd]
 * [RoboHash]
+
+
 
 ## Commands
 #### <ins>CAT COMMANDS</ins>
@@ -84,7 +88,7 @@ APIs currently in use by the bot:
  * Sends a robot image based on the search term
  * `Ex. !robot My name is Alex! set4 background2`
 
-<ins>SET can either be set1, set2, set3, set4, or set5</ins>
+<ins>SET can either be set1, set2, set3, set4, or set5</ins> \
 <ins>BACKGROUND can either be background1 or background2</ins> <br>
  
 #### <ins>STOCK COMMANDS</ins>
@@ -95,6 +99,8 @@ APIs currently in use by the bot:
 !stock search SEARCHTERM
  * Searches for stocks based on the search term
  * `Ex. !stock search Amazon`
+
+
 
 ```sh
 pip install Flask
@@ -122,18 +128,12 @@ Open [localhost:5000](http://localhost:5000/).
 
 
 ## Authors
-Trish Beeksma - [GitHub](https://github.com/TrishRB)\
-Alex Mello - [GitHub](https://github.com/Alex-E-Mello)\
-Matthew Siebold - [GitHub](https://github.com/DorkCube)
+Alex Mello - [Twitter](https://twitter.com/Alex_E_Mello), [GitHub](https://github.com/Alex-E-Mello)
 
 
 
 ## License
 MIT
-
-
-
-
 
 
 
