@@ -1,141 +1,39 @@
-# Houhou Discord Bot
-This Discord bot connects to many different APIs and can be added to a Discord server to allow users to get the functionality of the APIs without leaving Discord!
+# Mountain State Software Solutions Coding Challenge
+The purpose of this repository is to upload my code for the Mountain State Software Solutions coding challenge.
 
-If you would like to test out the bot you can join the discord server by clicking this [link]! 
-
-
-
-## APIs
-APIs currently in use by the bot:
-* [Alpha Vantage]
-* [icanhazdadjoke]
-* [NASA APOD]
-* [NASA Image and Video Library]
-* [NASA Mars Rover Photos]
-* [OMBd]
-* [RoboHash]
+This coding challenge is for an interview for the Jr. Software Engineer position.
 
 
 
-## Commands
-#### <ins>CAT COMMANDS</ins>
-<ins>!cat</ins>
- * Sends a random cat GIF
- 
-<ins>!cat upvote</ins>
- *  Upvotes the last cat GIF
+## Tech
+The project uses two open source projects to work properly:
 
-<ins>!cat downvote</ins>
- *  Upvotes the last cat GIF <br>
-
-#### <ins>DOG COMMANDS</ins>
-<ins>!dog</ins>
- * Sends a random dog GIF
-
-<ins>!dog upvote</ins>
- * Upvotes the last dog GIF
-
-<ins>!dog downvote</ins>
- * Upvotes the last dog GIF <br>
-
-#### <ins>IMBD COMMANDS</ins>
-<ins>!imbd TITLE</ins>
- * Searches IMBd for information on the movie/series based on the title
- * `Ex. !imbd Life of Pi`
-
-<ins>!imbd search TITLE</ins>
- * Searches IMBd for movies/series based on the title
- * `Ex. !imbd search Prisoners` <br>
- 
-#### <ins>JOKE COMMANDS</ins>
-<ins>!joke</ins>
- * Sends a random dad joke
-
-<ins>!joke SEARCHTERM</ins>
- * Sends a random dad joke based on the search term
- * `Ex. !joke Teacher` <br>
- 
-#### <ins>NASA APOD COMMANDS</ins>
-<ins>!nasa apod</ins>
- * Sends the NASA Astronomy Picture of the Day
-
-<ins>!nasa apod DATE</ins>
- * Sends the NASA Astronomy Picture of the Day for the given date\
- * `Ex. !nasa apod 2020-1-1` <br>
- 
-#### <ins>NASA ROVER COMMANDS</ins>
-<ins>!nasa rover</ins>
- * Send a random image from NASA's Mars Curiosity Rover
-
-<ins>!nasa rover DATE</ins>
- * Send a random image from NASA's Mars Curiosity Rover for the given date
- * `Ex. !nasa rover 2020-1-1` <br>
- 
-#### <ins>NASA SEARCH COMMANDS</ins>
-<ins>!nasa search</ins>
- * Sends a random image from NASA's image library
-
-<ins>!nasa search SEARCHTERM</ins>
- * Sends an image from NASA's image library based on the search term
- * `Ex. !nasa search Uranus` <br>
- 
-#### <ins>ROBOT COMMANDS</ins>
-<ins>!robot SET(optional) BACKGROUND(optional)</ins>
- * Sends a random robot image
- * `Ex. !robot set1 background1`
-
-<ins>!robot TERM SET(optional) BACKGROUND(optional)</ins>
- * Sends a robot image based on the search term
- * `Ex. !robot My name is Alex! set4 background2`
-
-<ins>SET can either be set1, set2, set3, set4, or set5</ins> \
-<ins>BACKGROUND can either be background1 or background2</ins> <br>
- 
-#### <ins>STOCK COMMANDS</ins>
-<ins>!stock STOCKTICKER</ins>
- * Sends a stock chart based on the stock ticker
- * `Ex. !stock MSFT`
-
-<ins>!stock search SEARCHTERM</ins>
- * Searches for stocks based on the search term
- * `Ex. !stock search Amazon`
-
-
-
-## Setup
-Create a bot account and add it to your server by following [this tutorial](https://discordpy.readthedocs.io/en/latest/discord.html).
-
-Update the KEYS.py file by adding your Discord login token and API keys. There are links to get all of the API keys in the KEYS.py file!
+* [Java 15]
+* [SQLiteJDBC]
 
 
 
 ## Installation
-Our project requires Python 3 and multiple packages to run.
+The source code is uploaded to this repository as an Eclipse Java project. Even though it is an Eclipse Java project it can easily be loaded into any Java IDE using the same instructions.
 
-[Install Python here.](https://www.python.org/downloads/)
+Download the source code as a ZIP file, extract the folder from the ZIP file, and then import the extracted folder into your IDE as an existing Java project.
 
-Install packages.
-
-```sh
-pip install -r Requirements.txt
-```
 
 
 ## Usage
-To run the project through Command Prompt you have to CD into the folder and then run DiscordBot.py.
+To run the project through your Java IDE you have to run Main.java.
 
+The console will prompt you to enter the filename of the file you want to use. There is a default file in the folder that can be used by entering:
 ```sh
-cd C:\Users\Alex\Downloads\Houhou-Discord-Bot-main
+ms3Interview.csv
 ```
 
-```sh
-python DiscordBot.py
-```
+To run the program using a different file, place the file in the same folder where ms3Interview.csv is and enter your filename when prompted.
 
 
 
-## Authors
-Alex Mello - [Twitter](https://twitter.com/Alex_E_Mello), [GitHub](https://github.com/Alex-E-Mello)
+## Author
+Alex Mello - [GitHub](https://github.com/Alex-E-Mello)
 
 
 
@@ -144,14 +42,11 @@ MIT
 
 
 
+
+
+
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [link]: <https://discord.gg/JYxbQKkB>
-   
-   [Alpha Vantage]: <https://www.alphavantage.co/documentation/>
-   [icanhazdadjoke]: <https://icanhazdadjoke.com/api>
-   [NASA APOD]: <https://api.nasa.gov/>
-   [NASA Image and Video Library]: <https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf>
-   [NASA Mars Rover Photos]: <https://github.com/chrisccerami/mars-photo-api>
-   [OMBd]: <http://www.omdbapi.com/>
-   [RoboHash]: <https://github.com/e1ven/Robohash>
+   [Java 15]: <https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html>
+   [SQLiteJDBC]: <https://github.com/xerial/sqlite-jdbc>
